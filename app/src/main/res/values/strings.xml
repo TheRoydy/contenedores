@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">contenedores_roydy</string>
+    <string name="button1">Linear Layout</string>
+    <string name="button2">Relative Layout</string>
+    <string name="button3">Frame Layout</string>
+    <string name="button4">Constraint Layout</string>
+    <string name="button5">Card View</string>
+    <string name="button6">Recycler View</string>
+    <string name="button7">List View</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
