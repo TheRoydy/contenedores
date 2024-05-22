@@ -1,14 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#D1F2EB"
     tools:context=".CardFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="366dp"
+        android:layout_height="180dp"
+        android:translationX="10dp"
+        android:translationY="60dp"
+        app:cardBackgroundColor="#34495E"
+        app:cardCornerRadius="30dp">
 
-</FrameLayout>
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMW"
+            android:textColor="#EDEDED"
+            android:textSize="24sp"
+            android:translationX="200dp"
+            android:translationY="10dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="156dp"
+            android:layout_height="124dp"
+            android:text="BMW pronunciación alemana. es un fabricante alemán de automóviles y motocicletas de alta gama y lujo, cuya sede se encuentra en Múnich."
+            android:textColor="#F3EFEF"
+            android:textSize="14sp"
+            android:translationX="200dp"
+            android:translationY="38dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="178dp"
+            android:layout_height="119dp"
+
+            android:src="@drawable/bmw_svgrepo_com"
+            android:translationY="30dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="366dp"
+        android:layout_height="180dp"
+        android:translationX="10dp"
+        android:translationY="260dp"
+        app:cardBackgroundColor="#34495E"
+        app:cardCornerRadius="30dp">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="189dp"
+            android:layout_height="match_parent"
+            android:background="#34495E"
+            android:src="@drawable/audi_svgrepo_com" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Audi"
+            android:textColor="#EDEDED"
+            android:textSize="24sp"
+            android:translationX="200dp"
+            android:translationY="10dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="156dp"
+            android:layout_height="124dp"
+            android:text="Audi es una empresa multinacionalalemana fabricante de automóviles de gama alta de lujo y deportivos."
+            android:textColor="#F3EFEF"
+            android:textSize="14sp"
+            android:translationX="200dp"
+            android:translationY="38dp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CardView"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:translationX="130dp" />
+
+
+
+</androidx.cardview.widget.CardView>
+
