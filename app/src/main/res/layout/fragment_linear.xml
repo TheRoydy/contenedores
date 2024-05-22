@@ -11,6 +11,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="81dp"
+        android:paddingStart="10dp"
         android:text="Linear Layout Vertical"
         android:textSize="24sp" />
 
@@ -52,6 +53,7 @@
         android:id="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="61dp"
+        android:paddingStart="10dp"
         android:text="Linear Layout Horizontal"
         android:textSize="24sp" />
 
