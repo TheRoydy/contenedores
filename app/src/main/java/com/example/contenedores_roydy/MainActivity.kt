@@ -9,6 +9,8 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
 
 class MainActivity : AppCompatActivity() {
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -18,6 +20,8 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        //Estos es para los botones
         var btnCambioFragment1=
             findViewById<Button>(R.id.button1)
 
@@ -33,11 +37,9 @@ class MainActivity : AppCompatActivity() {
         var btnCambioFragment5=
             findViewById<Button>(R.id.button5)
 
+
         var btnCambioFragment6=
             findViewById<Button>(R.id.button6)
-
-        var btnCambioFragment7=
-            findViewById<Button>(R.id.button7)
 
 
 
@@ -58,12 +60,12 @@ class MainActivity : AppCompatActivity() {
         btnCambioFragment5.setOnClickListener{
             cambioFragment(5)
         }
+
         btnCambioFragment6.setOnClickListener{
             cambioFragment(6)
         }
-        btnCambioFragment7.setOnClickListener{
-            cambioFragment(7)
-        }
+
+
     }
     fun cambioFragment(position:Int){
         //position:indica el fragmento deseado
@@ -77,8 +79,7 @@ class MainActivity : AppCompatActivity() {
             3->fragment=FrameFragment()
             4->fragment=ConstraintFragment()
             5->fragment=CardFragment()
-            6->fragment=RecyclerFragment()
-            7->fragment=ListFragment()
+            6->fragment=ListFragment()
             else-> fragment=LinearFragment()
         }
         //supportFragmentManager es el que gestiona el cambio de fragmentos
